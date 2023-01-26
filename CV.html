@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="css/cv-nav.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quintessential&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d2404578ea.js" crossorigin="anonymous"></script>
+    <img src="https://randomuser.me/api/portraits/men/59.jpg" alt="foto del candidato">
+</head>
+<body style="background-color: aliceblue;">
+
+    <h1 style="background-color: bisque;">CV</h1>
+    
+    <p style="background-color: lavender;">
+
+    <nav>
+        <a href="#datos-personales" class="nav-enlace">Datos personales</a>
+        <a href="#objetivos" class="nav-enlace">Objetivos</a>
+        <a href="#educacion-o-formacion" class="nav-enlace">Educación o formación</a>
+        <a href="#experiencia-laboral-y-resultados" class="nav-enlace">Experiencia laboral y resultados</a>
+        <a href="#conocimientos-o-destrezas" class="nav-enlace">Conocimientos o destrezas</a>
+        <a href="#informacion-adicional" class="nav-enlace">Información adicional</a>
+    </nav>
+
+<a name="datos-personales" />     
+<h2> Datos personales: <i class="fa-solid fa-person"></i></h2>
+    <ul>
+       <li>Nombre: ARLE SEMECKY</li>
+       <li>Teléfono: +54 9 223 765-4321</li>
+       <li>Correo electrónico: arlesemecky@yimeil.com</li>
+       <li>Ciudad y país: MAR DEL PLATA, ARGENTINA</li>
+    </ul>
+<a name="objetivos" />
+<h2> Objetivos: <i class="fa-solid fa-trophy"></i></h2>
+    <ul>
+       <li>ASCENSO LABORAL</li>
+       <li>CRECIMIENTO ECONÓMICO</li>
+    </ul>
+<a name="educacion-o-formacion" />
+<h2> Educación o formación: <i class="fa-solid fa-user-graduate"></i></h2>
+    <ul>
+       <li>LICENCIATURA EN ECONOMÍA</li>
+       <li>MÁSTER EN COMERCIO EXTERIOR Y FINANZAS INTERNACIONALES</li> 
+    </ul>
+<a name="experiencia-laboral-y-resultados" />
+<h2> Experiencia laboral y resultados: <i class="fa-solid fa-briefcase"></i></h2>
+    <ul>
+        <li>EXPORTACIÓN DE PRODUCTOS DE LA PESCA</li>
+        <li>INSERCIÓN EN LOS 5 CONTINENTES EN LOS ÚLTIMOS 20 AÑOS</li>
+    </ul>
+<a name="conocimientos-o-destrezas" />
+<h2> Conocimientos o destrezas: <i class="fa-solid fa-star"></i></h2>
+    <ul>
+        <li>INFORMÁTICA</li>
+        <li>INGLÉS</li>
+        <li>TRATO CON CLIENTES Y PROVEEDORES</li>
+    </ul>
+<a name="informacion-adicional" />
+<h2> Información adicional: <i class="fa-solid fa-message"></i></h2>
+    <ul>
+        <li>ATENDER CADA NUEVO PROYECTO Y LLEVARLO AL MEJOR RESULTADO POSIBLE</li>
+    </ul>
+    </p>
+    
+    <button onclick="topFunction()" id="miBoton" title="Go to top">Arriba</button>
+
+    <script>
+
+let mybutton = document.getElementById("miBoton");
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+    </script>
+
+</body>
+</html>
